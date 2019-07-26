@@ -145,7 +145,7 @@ article {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   .row {
     display: flex;
     flex-direction: row;
@@ -187,6 +187,7 @@ article {
     justify-content: center;
     padding-left: 5%;
     padding-right: 5%;
+    height: unset;
   }
   .bio-text {
     display: flex;
