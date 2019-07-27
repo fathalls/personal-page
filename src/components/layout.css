@@ -182,9 +182,9 @@ article {
     flex-direction: column;
     padding-top: 20%;
     padding-left: unset;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    align-items: unset;
+    align-content: unset;
+    justify-content: unset;
     padding-left: 5%;
     padding-right: 5%;
     height: unset;
