@@ -14,7 +14,7 @@ class Writing extends React.Component {
           <Navigation />
           <div class="content-column">
             <div className="articles">
-              <h4>My Writing</h4>
+              <h1>My Writing</h1>
               <Link to="/demystifying-nodejs-for-beginners">
                 <p>Demystifying Node.js for beginners</p>
               </Link>

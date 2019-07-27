@@ -5,7 +5,7 @@ const Me = () => {
         <div className="content-column">
             <div className="bio-text">
                 <div className="bio-description">
-                    <h4>Salwa Fathallah</h4>
+                    <h1>Salwa Fathallah</h1>
                     <p>Software engineer.</p>
                     <p>I believe in <a className="compassionate-coding" href="https://compassionatecoding.com/"
                             target="_blank">Compassionate Coding</a> and I practice <a className="learn-in-public"
