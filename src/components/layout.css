@@ -158,6 +158,7 @@ article {
     flex-direction: row;
     border-bottom-style: inset;
     border-bottom-width: 1px;
+    border-right-style: none;
     width: auto;
     height: unset;
     justify-content: space-around;
