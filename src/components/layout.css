@@ -40,7 +40,7 @@ h1
 .column-social {
   display: flex;
   flex-direction: column;
-  flex: 10%;
+  flex: 70%;
   justify-content: flex-end;
   padding-bottom: 25px;
 }
@@ -48,8 +48,8 @@ h1
 .column-links {
   display: flex;
   flex-direction: column;
-  flex: 10%;
-  justify-content: space-evenly;
+  flex: 30%;
+  justify-content: space-around;
 }
 
 .nav-column {
