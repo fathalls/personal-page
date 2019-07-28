@@ -29,8 +29,8 @@ class Article extends React.Component {
                   <a href="https://zenhabits.net/" target="_blank">
                     Zen Habits
                   </a>{" "}
-                  website. it&#x27;s Leo Babauta&#x27;s blog, he writes
-                  about minimalism, mindfulness and finding simplicity in
+                  website. it&#x27;s Leo Babauta&#x27;s blog, he writes about
+                  minimalism, mindfulness and finding simplicity in
                   everyday&#x27;s life. Check his{" "}
                   <a href="https://zenhabits.net/about/" target="_blank">
                     about
@@ -47,7 +47,8 @@ class Article extends React.Component {
                     target="_blank"
                   >
                     here
-                  </a>.
+                  </a>
+                  .
                 </p>
                 <p id="b7278368-ebe5-4494-ba95-329850c34b21" className=""></p>
                 <h3 id="d1f3b695-9f7b-4a61-93fc-17ef4b2161a9" className="">
@@ -100,16 +101,13 @@ class Article extends React.Component {
                     number.
                   </li>
                 </ol>
-                <pre id="04f4b1c3-e20c-446c-a4e7-58daf0c063c7" className="code">
-                  <img src={code} alt="code" />
-                </pre>
+                <img src={code} alt="code" />
                 <p id="d18326fa-e106-4dbc-ae6d-65df4d80cf0d" className=""></p>
                 <p id="50376064-b4c7-4282-bd92-42558c70e57b" className="">
                   You can then run this script from the command line:
                 </p>
-                <pre id="f2110ba1-9cfb-4331-8320-37c665c4717b" className="code">
-                  <img src={command} alt="command" />
-                </pre>
+                <img src={command} alt="command" />
+
                 <p id="d9ea4c9c-1b98-4b8d-aa96-e0c618ad8988" className=""></p>
                 <p id="12b5bdfa-9cf3-4a68-b592-908a682949d9" className="">
                   And it opens a link in your web browser!
