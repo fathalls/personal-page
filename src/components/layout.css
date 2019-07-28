@@ -193,6 +193,10 @@ img {
     padding-right: 5%;
     height: unset;
   }
+ img{
+   max-width: unset;
+ }
+
   .bio-text {
     display: flex;
     justify-content: center;
