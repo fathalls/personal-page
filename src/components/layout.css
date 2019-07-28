@@ -153,7 +153,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: auto;
+    max-width: 100%;
   }
   .nav-column {
     position: absolute;
@@ -162,7 +162,7 @@ img {
     border-bottom-style: inset;
     border-bottom-width: 1px;
     border-right-style: none;
-    width: auto;
+    max-width: 100%;
     height: unset;
     justify-content: space-around;
     align-items: center;
@@ -173,12 +173,14 @@ img {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: unset;
+    max-width: 50%;
   }
 
   .column-links {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    max-width: 50%;
   }
 
   .content-column {
@@ -192,9 +194,10 @@ img {
     padding-left: 5%;
     padding-right: 5%;
     height: unset;
+    max-width: 100%;
   }
  img{
-   max-width: unset;
+   max-width: 100%;
  }
 
   .bio-text {
