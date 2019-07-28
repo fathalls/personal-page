@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Navigation from "../components/navigation"
 import code from "../images/zenhabits.png"
-import command from "../images/zenhabitscli.svg"
+import command from "../images/zenhabitscli.png"
 
 class Article extends React.Component {
   render() {
