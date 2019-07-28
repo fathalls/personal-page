@@ -26,51 +26,59 @@ class Article extends React.Component {
                 </h3>
                 <p id="0269db68-31b4-4a92-a1f8-f78f82b2b90a" className="">
                   Lately, I came across the{" "}
-                  <a href="https://zenhabits.net/">Zen Habits</a> website.
-                  it&#x27;s Leo Babauta&#x27;s blog, where he writes about
-                  minimalism, mindfulness and finding simplicity in
-                  everyday&#x27;s life, check his{" "}
-                  <a href="https://zenhabits.net/about/">about</a> section for
-                  more infos!
+                  <a href="https://zenhabits.net/" target="_blank">
+                    Zen Habits
+                  </a>{" "}
+                  website. it&#x27;s Leo Babauta&#x27;s blog, he writes
+                  about minimalism, mindfulness and finding simplicity in
+                  everyday&#x27;s life. Check his{" "}
+                  <a href="https://zenhabits.net/about/" target="_blank">
+                    about
+                  </a>{" "}
+                  section for more infos!
                 </p>
                 <p id="2f670a7d-dd8a-4fc7-9c27-afe62c94457d" className="">
                   Everything looked interesting - big kudos to the very simple
                   design- , the paradox of choice led me to think of a way where
                   I don&#x27;t have to choose what to read, and delegate this
-                  task to an automated process. You can find the{" "}
-                  <a href="https://github.com/fathalls/zen-habits-random-article/blob/master/getZenHabitRandomArticle.py">
-                    source code
-                  </a>{" "}
-                  here.
+                  task to an automated process. You can find the source code{" "}
+                  <a
+                    href="https://github.com/fathalls/zen-habits-random-article"
+                    target="_blank"
+                  >
+                    here
+                  </a>.
                 </p>
                 <p id="b7278368-ebe5-4494-ba95-329850c34b21" className=""></p>
                 <h3 id="d1f3b695-9f7b-4a61-93fc-17ef4b2161a9" className="">
                   Solution
                 </h3>
                 <p id="10ff2ff1-f717-4909-b56a-7c991ec4ac17" className="">
-                  the starting point was to scrape the archive web page,
-                  and think of a way to return a random article in the page.
+                  the starting point was to scrape the archive web page, and
+                  think of a way to return a random article in the page.
                 </p>
                 <p id="7f1ef770-d983-4c2d-b1a3-90fc739ea626" className="">
                   I have very basic knowledge in Python, but it was enough for
                   what I needed to do.
                 </p>
                 <p id="156176ce-5ba2-405b-90a2-f7e16266c971" className="">
-                  the script does the following
+                  the script does the following:
                 </p>
                 <ol
                   id="95523123-658e-4590-8fb8-d1aecd148191"
                   className="numbered-list"
                   start="1"
                 >
-                  <li>gets the archive webpage</li>
+                  <li>gets the archive webpage.</li>
                 </ol>
                 <ol
                   id="bd2539e6-fe23-4937-b691-8c2bf0cc04ed"
                   className="numbered-list"
                   start="2"
                 >
-                  <li>parses the file to get all the <code>a</code> tags</li>
+                  <li>
+                    parses the file to get all the <code>a</code> tags.
+                  </li>
                 </ol>
                 <ol
                   id="19fd252e-1134-4219-83c0-a7de78f662c1"
@@ -78,8 +86,8 @@ class Article extends React.Component {
                   start="3"
                 >
                   <li>
-                    generates a number between 1 and the number of <code>a</code> tags in the
-                    page.
+                    generates a number between 1 and the number of{" "}
+                    <code>a</code> tags in the page.
                   </li>
                 </ol>
                 <ol
@@ -88,7 +96,8 @@ class Article extends React.Component {
                   start="4"
                 >
                   <li>
-                    return the link in the <code>a</code> tag for the generated number.
+                    returns the link in the <code>a</code> tag for the generated
+                    number.
                   </li>
                 </ol>
                 <pre id="04f4b1c3-e20c-446c-a4e7-58daf0c063c7" className="code">
@@ -96,7 +105,7 @@ class Article extends React.Component {
                 </pre>
                 <p id="d18326fa-e106-4dbc-ae6d-65df4d80cf0d" className=""></p>
                 <p id="50376064-b4c7-4282-bd92-42558c70e57b" className="">
-                  You can then run this script from the command line
+                  You can then run this script from the command line:
                 </p>
                 <pre id="f2110ba1-9cfb-4331-8320-37c665c4717b" className="code">
                   <img src={command} alt="command" />
@@ -118,7 +127,7 @@ class Article extends React.Component {
                   support JavaScript code.
                 </p>
                 <p id="cdfdf13c-fd5f-43f5-b7d4-961c6aea57ac" className="">
-                  We have two options
+                  We have two options:
                 </p>
                 <ol
                   id="925e662d-80a3-4eae-b8aa-47bd9ce14e69"
@@ -127,7 +136,7 @@ class Article extends React.Component {
                 >
                   <li>
                     Use the transpiler RapydScript to translate Python code to
-                    JavaScript
+                    JavaScript.
                   </li>
                 </ol>
                 <ol
@@ -135,7 +144,7 @@ class Article extends React.Component {
                   className="numbered-list"
                   start="2"
                 >
-                  <li>Rewrite it in Javascript :)</li>
+                  <li>Rewrite it in Javascript :).</li>
                 </ol>
                 <p id="2f98ed43-a369-49f2-994c-317a3f44edf4" className=""></p>
                 <p id="6cf989e4-e30f-4401-8a23-d384e19ed61c" className="">
