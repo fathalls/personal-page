@@ -9,7 +9,7 @@ class Writing extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Writing" />
+        <SEO title="Salwa F." />
         <div className="row">
           <Navigation />
           <div class="content-column">

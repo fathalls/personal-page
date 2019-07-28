@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -151,9 +150,11 @@ class Article extends React.Component {
                   className="bulleted-list"
                 >
                   <li>
-                    <a href="https://webpack.js.org/" target="_blank">webpack</a>: helps with
-                    building and packaging the code into a bundle file, which is
-                    compatible and readable by the browser.
+                    <a href="https://webpack.js.org/" target="_blank">
+                      webpack
+                    </a>
+                    : helps with building and packaging the code into a bundle
+                    file, which is compatible and readable by the browser.
                   </li>
                 </ul>
                 <ul
@@ -161,11 +162,13 @@ class Article extends React.Component {
                   className="bulleted-list"
                 >
                   <li>
-                    <a href="https://babeljs.io/" target="_blank">babel</a>: transpiles
-                    JavaScript ES6 and later versions to JavaScript ES5. Since
-                    Browsers are slow to support newer versions of JavaScript,
-                    this is a good way to code in JS ES6 without having to worry
-                    about browser compatibility.
+                    <a href="https://babeljs.io/" target="_blank">
+                      babel
+                    </a>
+                    : transpiles JavaScript ES6 and later versions to JavaScript
+                    ES5. Since Browsers are slow to support newer versions of
+                    JavaScript, this is a good way to code in JS ES6 without
+                    having to worry about browser compatibility.
                   </li>
                 </ul>
                 <ul
@@ -173,7 +176,10 @@ class Article extends React.Component {
                   className="bulleted-list"
                 >
                   <li>
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+                      target="_blank"
+                    >
                       fetch
                     </a>
                     : provides an interface to make HTTP requests.
@@ -184,8 +190,10 @@ class Article extends React.Component {
                   className="bulleted-list"
                 >
                   <li>
-                    <a href="https://expressjs.com/" target="_blank">express</a>: is a web
-                    framework for Node.js.
+                    <a href="https://expressjs.com/" target="_blank">
+                      express
+                    </a>
+                    : is a web framework for Node.js.
                   </li>
                 </ul>
                 <ul
@@ -193,8 +201,10 @@ class Article extends React.Component {
                   className="bulleted-list"
                 >
                   <li>
-                    <a href="http://mongoosejs.com/" target="_blank">mongoose</a>: is a mongodb
-                    object modelling for node.js.
+                    <a href="http://mongoosejs.com/" target="_blank">
+                      mongoose
+                    </a>
+                    : is a mongodb object modelling for node.js.
                   </li>
                 </ul>
                 <ul
@@ -202,8 +212,10 @@ class Article extends React.Component {
                   className="bulleted-list"
                 >
                   <li>
-                    <a href="https://reactjs.org/" target="_blank">react</a>: is the React
-                    library to build user interfaces.
+                    <a href="https://reactjs.org/" target="_blank">
+                      react
+                    </a>
+                    : is the React library to build user interfaces.
                   </li>
                 </ul>
                 <ul
@@ -211,15 +223,20 @@ class Article extends React.Component {
                   className="bulleted-list"
                 >
                   <li>
-                    <a href="https://mochajs.org/" target="_blank" >mocha</a>: is the JavaScript
-                    testing framework.
+                    <a href="https://mochajs.org/" target="_blank">
+                      mocha
+                    </a>
+                    : is the JavaScript testing framework.
                   </li>
                 </ul>
                 <p id="f24f0534-a215-4117-b1c7-33a44a478c7f" className=""></p>
                 <p id="573ea3f7-9905-4f7e-9004-160cf2150cf4" className="">
                   Now that you had a sneak-peak of Node.js main functionalities,
                   let&#x27;s dive into some programming. Here is official{" "}
-                  <a href="https://nodejs.org/en/docs/guides/getting-started-guide/" target="_blank">
+                  <a
+                    href="https://nodejs.org/en/docs/guides/getting-started-guide/"
+                    target="_blank"
+                  >
                     getting started guide
                   </a>{" "}
                   that I find really helpful for newbies. Happy coding!
