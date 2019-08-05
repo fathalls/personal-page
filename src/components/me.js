@@ -11,7 +11,7 @@ const Me = () => {
                             target="_blank">Compassionate Coding</a> and I practice <a className="learn-in-public"
                             href="https://www.swyx.io/writing/learn-in-public/" target="_blank">learning in public</a>.
                     </p>
-                    <p>This site refrences my learnings & some of the projects I worked/am working on.</p>
+                    <p>This site refrences my learnings & some of the projects I worked in my free time.</p>
                 </div>
             </div>
         </div>

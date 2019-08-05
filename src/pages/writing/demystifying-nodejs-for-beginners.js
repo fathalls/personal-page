@@ -1,9 +1,9 @@
 import React from "react"
 import ReactGA from "react-ga"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Navigation from "../components/navigation"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import Navigation from "../../components/navigation"
 
 function initializeReactGA() {
   ReactGA.initialize("UA-144983266-1")

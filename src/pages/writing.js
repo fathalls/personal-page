@@ -19,13 +19,13 @@ class Writing extends React.Component {
         <SEO title="Writing" />
         <div className="row">
           <Navigation />
-          <div class="content-column">
+          <div className="content-column">
             <div className="articles">
               <h1>My Writing</h1>
-              <Link to="/demystifying-nodejs-for-beginners">
+              <Link to="/writing/demystifying-nodejs-for-beginners">
                 <p>Demystifying Node.js for beginners</p>
               </Link>
-              <Link to="/random-zenhabits-article">
+              <Link to="/writing/random-zenhabits-article">
                 <p>Random Zen Habits article</p>
               </Link>
             </div>

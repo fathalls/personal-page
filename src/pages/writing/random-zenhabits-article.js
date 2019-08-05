@@ -1,9 +1,9 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Navigation from "../components/navigation"
-import code from "../images/zenhabits.png"
-import command from "../images/zenhabitscli.png"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import Navigation from "../../components/navigation"
+import code from "../../images/zenhabits.png"
+import command from "../../images/zenhabitscli.png"
 import ReactGA from "react-ga"
 
 function initializeReactGA() {

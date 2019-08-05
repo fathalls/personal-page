@@ -6,10 +6,27 @@ class Navigation extends React.Component {
     return (
       <div className="nav-column">
         <div className="column-links">
-          <Link className="home" to="/">
+          <Link
+            className="home"
+            to="/"
+            activeStyle={{
+              "text-decoration-line": "underline",
+              "text-decoration-style": "initial",
+              "text-decoration-color": "aqua",
+            }}
+          >
             me
           </Link>
-          <Link className="writing" to="/writing">
+          <Link
+            className="writing"
+            to="/writing"
+            activeStyle={{
+              "text-decoration-line": "underline",
+              "text-decoration-style": "initial",
+              "text-decoration-color": "aqua",
+            }}
+            partiallyActive={true}
+          >
             writing
           </Link>
         </div>

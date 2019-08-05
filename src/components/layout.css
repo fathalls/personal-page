@@ -79,6 +79,12 @@ h1 {
   align-items: center;
 }
 
+a {
+  color: #333333;
+  text-decoration-style: initial;
+  text-decoration-color: aqua;
+}
+
 .github,
 .twitter,
 .linkedin,
@@ -124,19 +130,17 @@ h1 {
 .home,
 .writing {
   transform: rotate(-90deg);
+  text-decoration-line: none;
+  /* text-decoration-color: #333333; */
 }
 
-.home:active,
+/* .home:active,
 .writing:active{
   color: aqua;
   text-decoration-color: #333333;
-}
+} */
 
-a {
-  color: #333333;
-  text-decoration-style: initial;
-  text-decoration-color: aqua;
-}
+
 
 article {
   margin-left: 20%;
@@ -247,11 +251,6 @@ article {
     transform: unset;
   }
 
-  a {
-    color: #333333;
-    text-decoration-style: initial;
-    text-decoration-color: aqua;
-  }
 
   article {
     margin: 0px;
