@@ -4,9 +4,15 @@ import SEO from "../components/seo"
 import Navigation from "../components/navigation"
 import code from "../images/zenhabits.png"
 import command from "../images/zenhabitscli.png"
+import ReactGA from "react-ga"
 
+function initializeReactGA() {
+  ReactGA.initialize("UA-144983266-1")
+  ReactGA.pageview("/random-zenhabits-article.js")
+}
 class Article extends React.Component {
   render() {
+    initializeReactGA()
     return (
       <Layout>
         <SEO title="Random Zen Habits article" />

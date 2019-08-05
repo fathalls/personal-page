@@ -1,12 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
+import ReactGA from "react-ga"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Navigation from "../components/navigation"
 
+function initializeReactGA() {
+  ReactGA.initialize("UA-144983266-1")
+  ReactGA.pageview("/writing")
+}
+
 class Writing extends React.Component {
   render() {
+    initializeReactGA()
     return (
       <Layout>
         <SEO title="Writing" />
