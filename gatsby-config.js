@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `SF`,
+    title: `Salwa Fathallah`,
     description: `Salwa Fathallah's personal website`,
     author: `@gatsbyjs`,
   },

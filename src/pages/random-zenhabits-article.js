@@ -9,7 +9,7 @@ class Article extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Writing" />
+        <SEO title="Random Zen Habits article" />
         <div className="row">
           <Navigation />
           <div className="content-column">
