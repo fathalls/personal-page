@@ -126,6 +126,12 @@ h1 {
   transform: rotate(-90deg);
 }
 
+.home:active,
+.writing:active{
+  color: aqua;
+  text-decoration-color: #333333;
+}
+
 a {
   color: #333333;
   text-decoration-style: initial;
