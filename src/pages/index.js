@@ -9,7 +9,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Salwa F." />
+        <SEO title="Salwa Fathallah" />
         <div className="row">
           <Navigation />
           <Me />
