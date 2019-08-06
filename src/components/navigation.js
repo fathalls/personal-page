@@ -10,9 +10,10 @@ class Navigation extends React.Component {
             className="home"
             to="/"
             activeStyle={{
-              "text-decoration-line": "underline",
-              "text-decoration-style": "initial",
-              "text-decoration-color": "aqua",
+              "text-decoration-line": "none",
+              "font-weight": "bolder",
+              "color": "black"
+
             }}
           >
             me
@@ -21,9 +22,9 @@ class Navigation extends React.Component {
             className="writing"
             to="/writing"
             activeStyle={{
-              "text-decoration-line": "underline",
-              "text-decoration-style": "initial",
-              "text-decoration-color": "aqua",
+              "text-decoration-line": "none",
+              "font-weight": "bold",
+              "color": "black"
             }}
             partiallyActive={true}
           >

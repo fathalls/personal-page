@@ -130,17 +130,7 @@ a {
 .home,
 .writing {
   transform: rotate(-90deg);
-  text-decoration-line: none;
-  /* text-decoration-color: #333333; */
 }
-
-/* .home:active,
-.writing:active{
-  color: aqua;
-  text-decoration-color: #333333;
-} */
-
-
 
 article {
   margin-left: 20%;
@@ -198,9 +188,9 @@ article {
     height: unset;
     max-width: 100%;
   }
- img{
-   width: 100%;
- }
+  img {
+    width: 100%;
+  }
 
   .bio-text {
     display: flex;
@@ -250,7 +240,6 @@ article {
   .writing {
     transform: unset;
   }
-
 
   article {
     margin: 0px;
