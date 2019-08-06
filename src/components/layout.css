@@ -196,7 +196,6 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-content: center;
   }
   .github,
   .twitter,
