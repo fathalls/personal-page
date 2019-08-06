@@ -267,7 +267,7 @@ class Article extends React.Component {
                   class="bulleted-list"
                 >
                   <li>
-                    changing the access token storage to be more secure - in a
+                    Changing the access token storage to be more secure - in a
                     database for instance.
                   </li>
                 </ul>
