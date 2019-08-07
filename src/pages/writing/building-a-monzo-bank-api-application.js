@@ -138,7 +138,7 @@ class Article extends React.Component {
                   className="bulleted-list"
                 >
                   <li>
-                    <code>OAuth_credentials</code>: a file for client
+                    <code>oauth_credentials</code>: a file for client
                     parameters: <code>client_id</code>,
                     <code> client_secret</code> and <code>redirect_uri</code>.
                   </li>
@@ -148,7 +148,7 @@ class Article extends React.Component {
                   className="bulleted-list"
                 >
                   <li>
-                    <code>OAuth_urls</code>: a file for the OAuth endpoints -
+                    <code>oauth_urls</code>: a file for the OAuth endpoints -
                     this is useful for code clarity.
                   </li>
                 </ul>
