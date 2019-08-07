@@ -76,7 +76,7 @@ class Article extends React.Component {
                   We need to do a number of things before implementing OAuth:
                 </p>
                 <p id="61e314cb-0cd0-4d62-aaec-241f0ec5ec17" className="">
-                  <strong>Credentials to access the API:</strong>
+                  <strong>Get the credentials to access the API:</strong>
                 </p>
                 <ol
                   id="5fc77c81-71aa-47fc-8768-e2142f9c61bb"
