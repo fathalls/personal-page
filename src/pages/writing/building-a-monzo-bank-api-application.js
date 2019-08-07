@@ -139,7 +139,7 @@ class Article extends React.Component {
                 >
                   <li>
                     <code>oauth_credentials</code>: a file for client
-                    parameters: <code>client_id</code>,
+                    parameters; <code>client_id</code>,
                     <code> client_secret</code> and <code>redirect_uri</code>.
                   </li>
                 </ul>
