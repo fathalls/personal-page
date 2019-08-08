@@ -8,7 +8,7 @@ import ReactGA from "react-ga"
 
 function initializeReactGA() {
   ReactGA.initialize("UA-144983266-1")
-  ReactGA.pageview("/random-zenhabits-article.js")
+  ReactGA.pageview("/random-zenhabits-article")
 }
 class Article extends React.Component {
   render() {

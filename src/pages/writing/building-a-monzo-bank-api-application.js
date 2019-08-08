@@ -2,16 +2,11 @@ import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import Navigation from "../../components/navigation"
-import react from "../../images/react.png"
-import token from "../../images/accesstoken.png"
-import authcode from "../../images/authcode.png"
-import accounts from "../../images/accounts.png"
-import balance from "../../images/balance.png"
 import ReactGA from "react-ga"
 
 function initializeReactGA() {
   ReactGA.initialize("UA-144983266-1")
-  ReactGA.pageview("/random-zenhabits-article.js")
+  ReactGA.pageview("/building-a-monzo-bank-api-application")
 }
 class Article extends React.Component {
   render() {
@@ -46,7 +41,10 @@ class Article extends React.Component {
                 </p>
                 <p id="8912cc0e-4d06-45d9-b405-f492bd350cb6" className="">
                   I started researching ways of doing this. I came across the{" "}
-                  <a href="https://www.openbanking.org.uk/customers/what-is-open-banking/" target="_blank">
+                  <a
+                    href="https://www.openbanking.org.uk/customers/what-is-open-banking/"
+                    target="_blank"
+                  >
                     Open Banking initiative
                   </a>
                   : It allows individuals and businesses to access financial
@@ -121,7 +119,10 @@ class Article extends React.Component {
                   Implement a minimal app which supports React, Babel, Node.js,
                   Express, and is managed by webpack. The source code for a
                   minimal configuration can be found{" "}
-                  <a href="https://github.com/fathalls/react-express-webpack-boilerplate" target="_blank">
+                  <a
+                    href="https://github.com/fathalls/react-express-webpack-boilerplate"
+                    target="_blank"
+                  >
                     here
                   </a>
                   .
@@ -376,7 +377,10 @@ export default App;
                 <p id="4faa7a80-a216-47b1-8f62-8c47ca1da6b6" className="">
                   If you get stuck with any step or need help, you can reach out
                   to me via{" "}
-                  <a href="https://twitter.com/salwa_fathallah" target="_blank">Twitter</a>.
+                  <a href="https://twitter.com/salwa_fathallah" target="_blank">
+                    Twitter
+                  </a>
+                  .
                 </p>
                 <p id="c3b6de05-0f24-49c3-9c18-3d0542864e26" className="">
                   Happy coding!{" "}

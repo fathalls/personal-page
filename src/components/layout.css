@@ -176,8 +176,8 @@ pre {
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
   }
   .column-social {
     display: flex;
