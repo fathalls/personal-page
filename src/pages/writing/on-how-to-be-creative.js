@@ -114,7 +114,6 @@ class Article extends React.Component {
                     realising that you missed something in the process, or
                     simply let go of the idea because it doesn&#x27;t work,
                     it&#x27;s not innovative enough, or it&#x27;s not useful.
-                    and think about something else.
                   </li>
                 </ol>
                 <p id="da9278c0-5083-468d-8014-fbbc63a68abd" class=""></p>
@@ -170,7 +169,7 @@ class Article extends React.Component {
                   <li>
                     <strong>Testing and verification</strong>: After taking a
                     break from the task in hand, I proof-read it, ask friends to
-                    proof-read it. and finally, share it online to get feedback.
+                    proof-read it. Finally, share it online to get feedback.
                   </li>
                 </ol>
                 <p id="ac1a16a8-2e6f-41f8-9220-55be1be42089" class=""></p>
