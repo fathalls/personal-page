@@ -179,7 +179,7 @@ class Article extends React.Component {
                   love to hear from you, what is your creative process? You can
                   reach out to me via{" "}
                   <a href="https://twitter.com/salwa_fathallah" target="_blank">
-                    Twitter
+                    Twitter.
                   </a>
                 </p>
                 <p id="b4c67889-87a0-42d0-a123-ab447b0f935a" class=""></p>
