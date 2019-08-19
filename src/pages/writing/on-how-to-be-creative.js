@@ -46,7 +46,7 @@ class Article extends React.Component {
                   Let&#x27;s go back to the definition of creativity: it&#x27;s
                   the ability to produce original and unusual ideas, or to make
                   something new or imaginative (Cf.{" "}
-                  <a href="https://dictionary.cambridge.org/dictionary/english/creativity">
+                  <a href="https://dictionary.cambridge.org/dictionary/english/creativity" target="_blank">
                     Cambridge dictionary
                   </a>
                   ). Such ideas can be the result of associating old ones,
@@ -66,7 +66,7 @@ class Article extends React.Component {
                 <p id="e0d43f76-0bf1-4ed4-a3ed-468503d6ff3e" class="">
                   My methodology for creativity boils down to these steps
                   (inspired by{" "}
-                  <a href="https://www.rasch.org/rmt/rmt72h.htm">
+                  <a href="https://www.rasch.org/rmt/rmt72h.htm" target="_blank">
                     Descartes scientific method
                   </a>
                   ):
@@ -176,7 +176,11 @@ class Article extends React.Component {
                 <p id="ac1a16a8-2e6f-41f8-9220-55be1be42089" class=""></p>
                 <p id="b645ffe7-6633-4244-af8e-e393a142847a" class="">
                   Hope this helps with channeling your creative energy. I would
-                  love to hear from you, what is your creative process?
+                  love to hear from you, what is your creative process? You can
+                  reach out to me via{" "}
+                  <a href="https://twitter.com/salwa_fathallah" target="_blank">
+                    Twitter
+                  </a>
                 </p>
                 <p id="b4c67889-87a0-42d0-a123-ab447b0f935a" class=""></p>
                 <p id="180ad3b8-f156-414f-a0e0-0eb6c5062f40" class=""></p>
