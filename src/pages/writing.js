@@ -22,6 +22,9 @@ class Writing extends React.Component {
           <div className="content-column">
             <div className="articles">
               <h1>My Writing</h1>
+              <Link to="/writing/on-how-to-be-creative">
+                <p>On how to be creative</p>
+              </Link>
               <Link to="/writing/building-a-monzo-bank-api-application">
                 <p>Building a Monzo Bank API application</p>
               </Link>
