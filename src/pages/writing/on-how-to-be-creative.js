@@ -13,7 +13,7 @@ class Article extends React.Component {
     initializeReactGA()
     return (
       <Layout>
-        <SEO title="Random Zen Habits article" />
+        <SEO title="On how to be creative" />
         <div className="row">
           <Navigation />
           <div className="content-column">
