@@ -23,16 +23,16 @@ class Writing extends React.Component {
             <div className="articles">
               <h1>My Writing</h1>
               <Link to="/writing/on-how-to-be-creative">
-                <p>On how to be creative</p>
+                <h3>On how to be creative</h3>
               </Link>
               <Link to="/writing/building-a-monzo-bank-api-application">
-                <p>Building a Monzo Bank API application</p>
+                <h3>Building a Monzo Bank API application</h3>
               </Link>
               <Link to="/writing/demystifying-nodejs-for-beginners">
-                <p>Demystifying Node.js for beginners</p>
+                <h3>Demystifying Node.js for beginners</h3>
               </Link>
               <Link to="/writing/random-zenhabits-article">
-                <p>Random Zen Habits article</p>
+                <h3>Random Zen Habits article</h3>
               </Link>
             </div>
           </div>
