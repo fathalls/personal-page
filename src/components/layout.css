@@ -175,6 +175,7 @@ pre {
     border-bottom-width: 1px;
     border-right-style: none;
     width: 100%;
+    max-width: 100%;
     height: unset;
     justify-content: space-around;
     align-items: center;
