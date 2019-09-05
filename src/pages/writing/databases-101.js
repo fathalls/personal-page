@@ -70,22 +70,13 @@ class Article extends React.Component {
                   </a>
                   .
                 </p>
-                <p id="455a892e-c18f-4cd5-b06d-f034e32a329c" class="">
-                  A database model is the way data is organized in the 
-                  <em>logical view</em>* level. It determines how the data is
-                  stored, retrieved and updated.
-                </p>
-                <p id="f04a591d-4167-4a19-a9ff-cfa80aed6c08" class="">
-                  The most used and popular ones are relational databases, NoSQL
-                  and the latest trend, NewSQL.
-                </p>
                 <h2 id="95977ecd-3f25-4f42-80dd-86cb231fa0cc" class="">
                   Databases models
                 </h2>
                 <p id="55695c75-4778-4462-9a1c-c3436bdade01" class="">
                   A database model is the way data is organized in the 
                   <em>logical view</em>* level. It determines how the data is
-                  stored, retrieved and updates(updated?)
+                  stored, retrieved and updated.
                 </p>
                 <p id="ce860821-827b-4942-a005-546ad7db80c0" class="">
                   The most used and popular ones are relational databases, NoSQL
