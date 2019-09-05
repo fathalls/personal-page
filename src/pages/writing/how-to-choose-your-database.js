@@ -34,7 +34,7 @@ class Article extends React.Component {
                 </p>
                 <p id="efb0fc7c-6bce-40e1-aa90-10aa71ffd5fa" class="">
                   You can refer to my{" "}
-                  <Link to="/writing/databases-101">
+                  <Link to="/writing/databases-101" target="_blank">
                     Databases 101
                   </Link>
                    article for more information about these data models, and a
@@ -232,7 +232,7 @@ class Article extends React.Component {
                 <p id="1b3b2b17-0349-416c-89ea-73afea6f58e4" class=""></p>
                 <p id="b812d0f9-47df-4068-81af-0dcb24f95bd0" class="">
                   Hope this article and the{" "}
-                  <Link to="/writing/databases-101">
+                  <Link to="/writing/databases-101" target="_blank">
                     Databases 101
                   </Link> article helped with
                   understanding the different tradeoffs we have to make when
