@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import Navigation from "../../components/navigation"
@@ -32,7 +33,10 @@ class Article extends React.Component {
                   database models.{" "}
                 </p>
                 <p id="efb0fc7c-6bce-40e1-aa90-10aa71ffd5fa" class="">
-                  You can refer to my <a href="databases-101" target="_blank">Databases 101</a>
+                  You can refer to my{" "}
+                  <Link to="/writing/databases-101">
+                    Databases 101
+                  </Link>
                    article for more information about these data models, and a
                   glossary of the most common terms in the database world.
                 </p>
@@ -69,10 +73,7 @@ class Article extends React.Component {
                 >
                   <li>Do I have a high volume of data?</li>
                 </ul>
-                <div
-                  id="74bacbae-c2e7-4204-8b28-95dd2fa73b9c"
-                  class="table"
-                >
+                <div id="74bacbae-c2e7-4204-8b28-95dd2fa73b9c" class="table">
                   <h4 class="collection-title">Database Models Comparison </h4>
                   <table class="collection-content">
                     <thead>
@@ -85,9 +86,7 @@ class Article extends React.Component {
                     <tbody>
                       <tr id="b3febf5a-e17f-42dc-b934-db496d2ad69c">
                         <td class="cell-title">
-                          <a>
-                            Relational
-                          </a>
+                          <a>Relational</a>
                         </td>
                         <td class="cell-}?LA">
                           <span class="selected-value">OLTP</span>
@@ -101,9 +100,7 @@ class Article extends React.Component {
                       </tr>
                       <tr id="10d187fd-202e-49ab-b11d-61d31fa957ca">
                         <td class="cell-title">
-                          <a>
-                            NoSQL
-                          </a>
+                          <a>NoSQL</a>
                         </td>
                         <td class="cell-}?LA">
                           <span class="selected-value">
@@ -118,9 +115,7 @@ class Article extends React.Component {
                       </tr>
                       <tr id="b3dec5c0-b6f5-43db-9861-3644ef8e1bb7">
                         <td class="cell-title">
-                          <a>
-                            NewSQL
-                          </a>
+                          <a>NewSQL</a>
                         </td>
                         <td class="cell-}?LA">
                           <span class="selected-value">
@@ -138,8 +133,8 @@ class Article extends React.Component {
                 <p id="1c508d25-4c5e-4b75-85b1-aec56bfcbca4" class="">
                   The NewSQL solution seems to promise the best of two worlds;
                   ACID compliant (like relational databases) and horizontally
-                  scalable (like NoSQL databases). The only problem is
-                  the solution&#x27;s maturity; it&#x27;s not as mature as
+                  scalable (like NoSQL databases). The only problem is the
+                  solution&#x27;s maturity; it&#x27;s not as mature as
                   relational and NoSQL DBMSs.
                 </p>
                 <p id="19428099-149c-45b3-8a32-400b41a5357f" class=""></p>
@@ -153,7 +148,10 @@ class Article extends React.Component {
                 >
                   <li>
                     The women in tech show 
-                    <a href="https://player.fm/series/series-2468272/database-scaling-with-deepthi-sigireddi" target="_blank">
+                    <a
+                      href="https://player.fm/series/series-2468272/database-scaling-with-deepthi-sigireddi"
+                      target="_blank"
+                    >
                       podcast
                     </a>
                      with Deepthi Sigireddi on databases scaling.
@@ -165,7 +163,10 @@ class Article extends React.Component {
                 >
                   <li>
                     Software engineering daily 
-                    <a href="https://softwareengineeringdaily.com/2015/07/30/mongodb-with-bryan-reinero/" target="_blank">
+                    <a
+                      href="https://softwareengineeringdaily.com/2015/07/30/mongodb-with-bryan-reinero/"
+                      target="_blank"
+                    >
                       podcast
                     </a>
                      with Bryan Reinero on MongoDB.
@@ -177,7 +178,12 @@ class Article extends React.Component {
                 >
                   <li>
                     Uber engineering 
-                    <a href="https://eng.uber.com/schemaless-part-one/" target="_blank">blog</a>
+                    <a
+                      href="https://eng.uber.com/schemaless-part-one/"
+                      target="_blank"
+                    >
+                      blog
+                    </a>
                      on Schemaless.
                   </li>
                 </ul>
@@ -187,7 +193,10 @@ class Article extends React.Component {
                 >
                   <li>
                     Using Cassandra for storing financial transactions 
-                    <a href="https://skillsmatter.com/skillscasts/10469-retail-banking-using-cassandra-for-storing-financial-transactions" target="_blank">
+                    <a
+                      href="https://skillsmatter.com/skillscasts/10469-retail-banking-using-cassandra-for-storing-financial-transactions"
+                      target="_blank"
+                    >
                       talk
                     </a>
                     .
@@ -199,7 +208,10 @@ class Article extends React.Component {
                 >
                   <li>
                     Introduction to Database Management Systems 
-                    <a href="https://learning.oreilly.com/library/view/introduction-to-database/9788131700785/" target="_blank">
+                    <a
+                      href="https://learning.oreilly.com/library/view/introduction-to-database/9788131700785/"
+                      target="_blank"
+                    >
                       book
                     </a>
                     .
@@ -220,12 +232,15 @@ class Article extends React.Component {
                 <p id="1b3b2b17-0349-416c-89ea-73afea6f58e4" class=""></p>
                 <p id="b812d0f9-47df-4068-81af-0dcb24f95bd0" class="">
                   Hope this article and the{" "}
-                  <a href="databases-101">Databases 101</a> article helped with
-                  understanding the different tradeoffs we have to make when choosing a
-                  DBMS. You can reach out to me via <a href="https://twitter.com/salwa_fathallah" target="_blank">
+                  <Link to="/writing/databases-101">
+                    Databases 101
+                  </Link> article helped with
+                  understanding the different tradeoffs we have to make when
+                  choosing a DBMS. You can reach out to me via{" "}
+                  <a href="https://twitter.com/salwa_fathallah" target="_blank">
                     Twitter
-                  </a> if you want to chat
-                  more about it!
+                  </a>{" "}
+                  if you want to chat more about it!
                 </p>
                 <p id="78dfdd32-4245-44f5-9305-16db5d0f1677" class=""></p>
               </div>
