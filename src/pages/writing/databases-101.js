@@ -22,7 +22,7 @@ class Article extends React.Component {
               class="page sans"
             >
               <header>
-                <h1 class="page-title">Database 101</h1>
+                <h1 class="page-title">Databases 101</h1>
               </header>
               <div class="page-body">
                 <h2 id="ec56e7e8-0d6b-40c9-b955-682dd8d8171a" class="">
