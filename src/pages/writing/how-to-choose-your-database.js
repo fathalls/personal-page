@@ -85,7 +85,7 @@ class Article extends React.Component {
                     <tbody>
                       <tr id="b3febf5a-e17f-42dc-b934-db496d2ad69c">
                         <td class="cell-title">
-                          <a href="https://www.notion.so/Relational-b3febf5ae17f42dcb934db496d2ad69c" target="_blank">
+                          <a>
                             Relational
                           </a>
                         </td>
@@ -101,7 +101,7 @@ class Article extends React.Component {
                       </tr>
                       <tr id="10d187fd-202e-49ab-b11d-61d31fa957ca">
                         <td class="cell-title">
-                          <a href="https://www.notion.so/NoSQL-10d187fd202e49abb11d61d31fa957ca" target="_blank">
+                          <a>
                             NoSQL
                           </a>
                         </td>
@@ -118,7 +118,7 @@ class Article extends React.Component {
                       </tr>
                       <tr id="b3dec5c0-b6f5-43db-9861-3644ef8e1bb7">
                         <td class="cell-title">
-                          <a href="https://www.notion.so/NewSQL-b3dec5c0b6f543db98613644ef8e1bb7" target="_blank">
+                          <a>
                             NewSQL
                           </a>
                         </td>
