@@ -71,6 +71,7 @@ h1{
   flex-basis: 100%;
   flex: 90%;
   padding-left: 10%;
+  padding-right: 10%;
   align-items: center;
   justify-content: center;
 }
